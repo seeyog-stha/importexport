@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(2,40vw);
+    gap: 2vw;
+}
+.tableinfo{
+ border: 2px solid black;
+ height: 100vh;
+ overflow-y: scroll;
+}
+.manitable{
+    border: 2px solid green;
+    height: 100vh;
+}
+caption{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td{
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+.insert,.remove{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.insert input,.insert button,.remove input,.remove button{
+    padding: 5px;
+   width: 20vw;
+}

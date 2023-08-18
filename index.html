@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>import export</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tableinfo">
+        <table>
+            <caption >DataBase</caption>
+            <tr>
+                <th>S.N.</th>
+                <th>Name</th>
+                <th>address</th>
+            </tr>
+            <tbody class="tablecontent"></tbody>
+        </table>
+    </div>
+    <div class="manitable">
+        <div class="insert">
+
+            <label for="id">plese enter the id</label>
+            <input type="number" name="id" id="id">
+          <label for="name">plese enter the name</label>
+          <input type="text" name="name" id="name">
+          <label for="address">please enter the address</label>
+          <input type="text" name="address" id="address">
+            <button >click me</button>
+        </div>
+        <hr>
+        <div class="remove">
+            <label for="delid">Enter the id you want to delete</label>
+            <input type="number" name="delid" id="delid">
+            <button>delete item</button>
+        </div>
+    </div>
+    <script src="table.js" type="module"></script>
+</body>
+</html>
