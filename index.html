@@ -11,7 +11,7 @@
         <table>
             <caption >DataBase</caption>
             <tr>
-                <th>S.N.</th>
+                <th>I.D.</th>
                 <th>Name</th>
                 <th>address</th>
             </tr>
@@ -20,10 +20,10 @@
     </div>
     <div class="manitable">
         <div class="insert">
-
-            <label for="id">plese enter the id</label>
-            <input type="number" name="id" id="id">
-          <label for="name">plese enter the name</label>
+            <h2>Please make sure that id is unique</h2>
+            <label for="id">please enter the id</label>
+            <input type="number" name="id" id="id" >
+          <label for="name">please enter the name</label>
           <input type="text" name="name" id="name">
           <label for="address">please enter the address</label>
           <input type="text" name="address" id="address">
@@ -31,9 +31,21 @@
         </div>
         <hr>
         <div class="remove">
+            <h2>remove the row using id</h2>
             <label for="delid">Enter the id you want to delete</label>
             <input type="number" name="delid" id="delid">
             <button>delete item</button>
+        </div>
+        <hr>
+        <div class="searchclass">
+            <h2>search me using anything</h2>
+            <select name="select" id="select">
+                <option value="0">id</option>
+                <option value="1" selected>name</option>
+                <option value="2">address</option>
+            
+            </select>
+            <input type="text" name="search" id="search" placeholder="enter the value here">
         </div>
     </div>
     <script src="table.js" type="module"></script>

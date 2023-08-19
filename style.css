@@ -1,7 +1,7 @@
 body{
     background-color: whitesmoke;
     display: grid;
-    grid-template-columns: repeat(2,40vw);
+    grid-template-columns: repeat(2,45vw);
     gap: 2vw;
 }
 .tableinfo{
@@ -11,7 +11,6 @@ body{
 }
 .manitable{
     border: 2px solid green;
-    height: 100vh;
 }
 caption{
     text-align: center;
@@ -24,14 +23,15 @@ th,td{
     padding: 10px 20px;
     border: 2px solid black;
 }
-.insert,.remove{
+.insert,.remove,.searchclass{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-.insert input,.insert button,.remove input,.remove button{
+.insert input,.insert button,.remove input,.remove button,.searchclass select,.searchclass input{
     padding: 5px;
    width: 20vw;
     border-radius: 10px;
+    text-align: center;
 }
