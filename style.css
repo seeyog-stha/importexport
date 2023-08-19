@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: whitesmoke;
     display: grid;
     grid-template-columns: repeat(2,40vw);
     gap: 2vw;
@@ -33,4 +33,5 @@ th,td{
 .insert input,.insert button,.remove input,.remove button{
     padding: 5px;
    width: 20vw;
+    border-radius: 10px;
 }
