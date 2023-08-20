@@ -35,3 +35,6 @@ th,td{
     border-radius: 10px;
     text-align: center;
 }
+.tablecontent tr:hover{
+    background-color: green;
+}
