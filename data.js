@@ -6,18 +6,18 @@ let data=[
     },
     {
         id:2,
-        name:"seeyog2",
-        address:"dkt"
+        name:"roshan",
+        address:"ktm"
     },
     {
         id:3,
-        name:"seeyog3",
+        name:"sushant",
         address:"dkt"
     },
     {
         id:4,
-        name:"seeyog4",
-        address:"dkt"
+        name:"prem",
+        address:"dharan"
     },
 ]
 export default data;
